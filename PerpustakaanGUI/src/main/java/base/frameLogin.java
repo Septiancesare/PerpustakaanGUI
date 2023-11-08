@@ -29,8 +29,7 @@ public class frameLogin extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         inputUsername = new javax.swing.JTextField();
         btnLogin = new javax.swing.JButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        inputPassword = new javax.swing.JTextArea();
+        inputPassword = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -57,11 +56,7 @@ public class frameLogin extends javax.swing.JFrame {
         jPanel1.add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 840, 820, 80));
 
         inputPassword.setBackground(new java.awt.Color(222, 217, 186));
-        inputPassword.setColumns(20);
-        inputPassword.setRows(5);
-        jScrollPane1.setViewportView(inputPassword);
-
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 630, 600, 110));
+        jPanel1.add(inputPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 630, 600, 110));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/LOGINpage.jpg"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1920, -1));
@@ -128,10 +123,9 @@ public class frameLogin extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnLogin;
-    private javax.swing.JTextArea inputPassword;
+    private javax.swing.JTextField inputPassword;
     private javax.swing.JTextField inputUsername;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
 }
